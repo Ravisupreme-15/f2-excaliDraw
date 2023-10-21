@@ -1,0 +1,73 @@
+*{
+    font-family: Virgil;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+#toolbar{
+    background-color: white;
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 10px lightgray;
+}
+
+#toolbar>button{
+    border: none;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+#toolbar>button>i, #toolbar>button>sub{
+    background-color: transparent;
+}
+
+#toolbar>button:hover{
+    background-color: lightgray;
+}
+
+#vertical-line{
+    border-right: 1px solid black;
+    height: 30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#canvas{
+    position: relative;
+}
+
+.active {
+    background-color: yellow;
+    border-radius: 4px;
+}
+
+#header-right button{
+    border: none;
+    border-radius: 5px;
+}
+
+footer{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#footer-left{
+    display: flex;
+    justify-content: space-between;
+    width: 10vw;
+}
+
+#footer-left button{
+    border: none;
+}
